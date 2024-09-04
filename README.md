@@ -1,1 +1,5 @@
-# PracticalAssignment11.1
+For this assignment, we were asked to determine the features that are most important when predicting car price. To do so, we were provided a datset "vehicles.csv", which contains multiple features including a "price" feature that we will attempt to predict.
+
+Before any models were created, the provided dataset needed to be cleaned. Many values were missing, with up to a third of a specific feature missing values. Due to the nature of the features with missing values making it difficult to simply fill in the missing data with exisitng data, I decided to remove all entries that contained missing features.
+
+After creating and testing multiple models, I found what I consider are the 10 most important features for predicting price: year, model, fuel, odometer, title_status, transmission, drive, size, paint_color, and state. While this is the conclusio I reached, I suggest that further research is required. The dataset was shortened considerably due to the removal of all entries containg missing values. Because of this, some of the results may not accurately represent the features needed to predict car price. I feel that using a dataset that doesn't have any missing data would be able to provide more accurate results.
